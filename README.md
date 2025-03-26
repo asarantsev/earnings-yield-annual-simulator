@@ -3,4 +3,6 @@ Annual simulator using volatility and 1-year earnings yield. See the blog post h
 
 Added: simulator.py is united simulator for volatility only or volatility plus 1-year earnings yield. See the blog post https://my-finance.org/2025/03/24/simulator-of-sp-vs-volatility-maybe-earnings-yield/ Here century.xlsx is the data file. It has earnings and CPI data from 1918 in order to later extend it to 10-year Shiller CAPE ratio. 
 
-Added: window.py is united simulator for volatility only or volatility plus cyclically adjusted earnings yield, with choice of averaging window from 1 to 10 years. Same data file. See https://my-finance.org/2025/03/12/sp-500-returns-with-cape-and-volatility/ 
+Added: window.py is united simulator for volatility only or volatility plus cyclically adjusted earnings yield, with choice of averaging window from 1 to 10 years. Same data file. https://my-finance.org/2025/03/12/sp-500-returns-with-cape-and-volatility/ 
+
+Added: log-window.py is the same united simulator with earnings yield changed to its logarithm, to make returns less skewed towards right end. Same data file. https://my-finance.org/2025/03/26/simulator-of-sp-returns-using-volatility-only-or-with-shiller-cape/
